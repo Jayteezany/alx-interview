@@ -1,0 +1,7 @@
+U
+
+    OʤcC  �                   @   s   d Z dd� ZdS )z-A module for working with Pascal's triangle.
+c                 C   s�   g }t | �tk	s| dkr|S t| �D ]z}g }t|d �D ]Z}|dksL||krX|�d� q8|dkr8|dkr8|�||d  |d  ||d  |  � q8|�|� q$|S )zcCreates a list of lists of integers representing
+    the Pascal's triangle of a given integer.
+    �    �   )�type�int�range�append)�n�triangle�i�line�j� r   �C/home/succy/alx-interview/0x00-pascal_triangle/0-pascal_triangle.py�pascal_triangle   s    ,r   N)�__doc__r   r   r   r   r
+   �<module>   s   
