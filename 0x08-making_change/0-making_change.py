@@ -24,4 +24,4 @@ def makeChange(coins, total):
         sum += q
     if (total != 0):
         return -1
-    return 
+    return sum
